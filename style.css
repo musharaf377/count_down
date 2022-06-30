@@ -70,6 +70,11 @@ h3.creator {
 }
 
 @media only screen and (max-width: 630px) {
+
+  #count-down{
+    height: 60vh;
+  }
+
   .box-wrapper {
     justify-content: center;
   }
