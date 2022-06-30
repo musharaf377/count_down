@@ -22,8 +22,6 @@ body{
 .wrapper h2 {
   font-size: 60px;
   color: #fff;
-  font-size: 60px;
-  color: #fff;
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 30px;
@@ -60,4 +58,41 @@ body{
 
 .wrapper {
   width: 600px;
+}
+
+h3.creator {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-weight: 400;
+  color: #fff;
+  opacity: .5;
+}
+
+@media only screen and (max-width: 630px) {
+  .box-wrapper {
+    justify-content: center;
+  }
+
+  .box {
+    width: 22%;
+    margin:5px;
+  }
+  .number {
+    font-size: 23px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .wrapper {
+    width: 480px;
+  }
+  .box-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .wrapper h2 {
+    font-size: 40px;
+  }
+
 }
